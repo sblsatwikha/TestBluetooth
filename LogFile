@@ -1,0 +1,84 @@
+2022-03-17 19:03:57.370272+0530 App[743:121396] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///private/var/mobile/Containers/Data/Application/3BF36004-41B8-46A3-8D98-FFDB61BA42E5/Library/Cookies/Cookies.binarycookies
+2022-03-17 19:03:57.565253+0530 App[743:121396] KeyboardPlugin: resize mode - native
+⚡️  Loading app at capacitor://localhost...
+2022-03-17 19:03:57.713938+0530 App[743:121396] WF: === Starting WebFilter logging for process App
+2022-03-17 19:03:57.713996+0530 App[743:121396] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2022-03-17 19:03:57.714046+0530 App[743:121396] WF: _WebFilterIsActive returning: NO
+⚡️  WebView loaded
+⚡️  [log] - Angular is running in development mode. Call enableProdMode() to enable production mode.
+⚡️  To Native ->  App addListener 80040328
+
+
+⚡️  To Native ->  BluetoothLe initialize 80040329
+Resolve initialize BLE powered on
+⚡️  TO JS undefined
+⚡️  To Native ->  BluetoothLe addListener 80040330
+⚡️  To Native ->  BluetoothLe requestLEScan 80040331
+Resolve startScanning Scan started.
+⚡️  TO JS undefined
+
+
+New device found:  iPhone
+⚡️  TO JS {"rssi":-47,"uuids":[],"device":{"name":"iPhone","deviceId":"02FBD040-A36F-5885-BC9C-768135FECA0E"},"txPower":12}
+⚡️  [log] - received new scan result  {"rssi":-47,"uuids":[],"device":{"name":"iPhone","deviceId":"02FBD040-A36F-5885-BC9C-768135FECA0E"},"txPower":12}
+
+
+New device found:  Unknown
+⚡️  TO JS {"rssi":-35,"uuids":[],"device":{"deviceId":"21228C56-992D-B379-84E8-E2A1B6DCF0A1"},"txPower":127}
+⚡️  [log] - received new scan result  {"rssi":-35,"uuids":[],"device":{"deviceId":"21228C56-992D-B379-84E8-E2A1B6DCF0A1"},"txPower":127}
+
+
+⚡️  To Native ->  BluetoothLe removeListener 80040332
+⚡️  To Native ->  BluetoothLe stopLEScan 80040333
+Stop scanning.
+⚡️  TO JS undefined
+⚡️  [log] - stopped scanning
+⚡️  To Native ->  BluetoothLe addListener 80040334
+⚡️  To Native ->  BluetoothLe connect 80040335
+
+
+Connecting to peripheral <CBPeripheral: 0x280c70140, identifier = 02FBD040-A36F-5885-BC9C-768135FECA0E, name = iPhone, state = disconnected>
+Connected to device <CBPeripheral: 0x280c70140, identifier = 02FBD040-A36F-5885-BC9C-768135FECA0E, name = iPhone, state = connected>
+Resolve connect|02FBD040-A36F-5885-BC9C-768135FECA0E Successfully connected.
+Connected to peripheral. Waiting for service discovery.
+didDiscoverServices
+didDiscoverCharacteristicsFor 1 5
+didDiscoverCharacteristicsFor 2 5
+didDiscoverCharacteristicsFor 3 5
+didDiscoverCharacteristicsFor 4 5
+didDiscoverCharacteristicsFor 5 5
+Resolve connect Connection successful.
+⚡️  TO JS undefined
+⚡️  [log] - Bluetooth command sent
+⚡️  [log] - connected to device iPhone
+
+
+⚡️  To Native ->  BluetoothLe disconnect 80040336
+Disconnecting from peripheral <CBPeripheral: 0x280c70140, identifier = 02FBD040-A36F-5885-BC9C-768135FECA0E, name = iPhone, state = connected>
+Resolve onDisconnected|02FBD040-A36F-5885-BC9C-768135FECA0E Disconnected.
+⚡️  TO JS undefined
+Resolve disconnect|02FBD040-A36F-5885-BC9C-768135FECA0E Successfully disconnected.
+
+
+⚡️  TO JS undefined
+⚡️  To Native ->  BluetoothLe addListener 80040337
+⚡️  To Native ->  BluetoothLe connect 80040338
+
+
+Connecting to peripheral <CBPeripheral: 0x280c6c320, identifier = 21228C56-992D-B379-84E8-E2A1B6DCF0A1, name = (null), state = disconnected>
+Reject connect Connection timeout
+Reject callback not registered for key:  onDisconnected|21228C56-992D-B379-84E8-E2A1B6DCF0A1
+ERROR MESSAGE:  {"message":"Connection timeout","errorMessage":"Connection timeout"}
+Resolve callback not registered for key:  onDisconnected|21228C56-992D-B379-84E8-E2A1B6DCF0A1
+Resolve callback not registered for key:  disconnect|21228C56-992D-B379-84E8-E2A1B6DCF0A1
+⚡️  [error] - {"message":"Connection timeout","errorMessage":"Connection timeout"}
+⚡️  [log] - connectToDevice {"errorMessage":"Connection timeout"}
